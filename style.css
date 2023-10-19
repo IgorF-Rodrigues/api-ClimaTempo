@@ -1,0 +1,96 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.formulario {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    max-width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#input-cidade {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn-envia {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-envia:hover {
+    background-color: #2074a0;
+}
+
+.secao-clima {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.titulo-tempo {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.lista-tempo {
+    list-style: none;
+    padding: 0;
+}
+
+.lista-linha {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.texto-tempo {
+    font-weight: bold;
+}
+
+.img-tempo {
+    max-width: 30px;
+    max-height: 30px;
+    margin-right: 10px;
+}
+
+@media (max-width: 600px) {
+    .formulario {
+        max-width: 80%;
+    }
+    
+    .btn-envia {
+        width: 100%;
+    }
+
+    .secao-clima {
+        max-width: 90%;
+    }
+}
+
